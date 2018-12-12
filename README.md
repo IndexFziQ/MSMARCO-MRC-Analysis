@@ -1,8 +1,8 @@
 # Analysis on MSMARCO MRC Submissions
 
-A list of analysis on the leaderboard, which focuses on the MRC task on MS-MARCO.
+A list of analysis on the MS-MARCO leaderboard regarding the machine reading comprehension task.
 
-Contributed by Yuqiang Xie and Xing Luxi, National Engineering Laboratory for Information Security Technologies, Institute of Information Engineering, Chinese Academy of Sciences, Beijing, China.
+Contributed by Yuqiang Xie and Xing Luxi, *National Engineering Laboratory for Information Security Technologies, Institute of Information Engineering, Chinese Academy of Sciences, Beijing, China*.
 
 ## Introduction
 
