@@ -26,9 +26,9 @@ Task Definition: Given a question and a set of passages (top 10) retrieved
 by search engines, the task is to find the best concise answer to the question. 
 
 |Rank|Model| Org. | Rouge-L | Bleu-1 | Description |
-|:----|:----|:-------||:-----|:-----|:-----|
-|1|MARS| YUANFUDAO research NLP | Multi-Attention ReaderS|49.72| 48.02 | [link]() |
-|2|Human Performance| - | - |47.00| 46.00 |[link]() |
+|:----|:----|:-------|:-----:|:-----:|:----:|
+|1|MARS| YUANFUDAO research NLP | 49.72| 48.02 | [link]() |
+|2|Human Performance| -  |47.00| 46.00 |[link]() |
 |3|[V-Net](https://arxiv.org/pdf/1805.02220.pdf)| Baidu NLP | 46.15 | 44.46 |[link]() |
 |4|[S-Net](https://arxiv.org/pdf/1706.04815.pdf)| Microsoft AI and Research |45.23| 43.78|[link]() |
 |5|[R-Net](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/05/r-net.pdf)| Microsoft AI and Research |42.89| 42.22|[link]() |
