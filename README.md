@@ -25,16 +25,16 @@ Tips: The official evaluation metrics include [ROUGE-L](http://aclweb.org/anthol
 Task Definition: Given a question and a set of passages (top 10) retrieved
 by search engines, the task is to find the best concise answer to the question. 
 
-|Rank|Model| Org.  | Motivation | Core Idea| Rouge-L | Bleu-1 |
-|:----|:----|:-------|:----|:----|:-----|-----|
-|1|MARS| YUANFUDAO research NLP | Multi-Attention ReaderS |  | |49.72| 48.02 |
-|2|Human Performance| - | - | - |- |47.00| 46.00 |
-|3|[V-Net](https://arxiv.org/pdf/1805.02220.pdf)| Baidu NLP |  |  | 46.15 | 44.46 |
-|4|[S-Net](https://arxiv.org/pdf/1706.04815.pdf)| Microsoft AI and Research |   | |45.23| 43.78|
-|5|[R-Net](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/05/r-net.pdf)| Microsoft AI and Research |   |  |42.89| 42.22|
-|6|[ReasoNet](https://arxiv.org/pdf/1609.05284.pdf)| Microsoft AI and Research |  | |38.81| 39.86|
-|7|[Prediction](https://arxiv.org/abs/1608.07905.pdf)| Singapore Management University |   | |37.67| 33.93|
-|8|[FastQA_Ext](https://arxiv.org/pdf/1703.04816.pdf)| DFKI German Research Center for AI | | |33.67| 33.93|
+|Rank|Model| Org. | Rouge-L | Bleu-1 | Description |
+|:----|:----|:-------||:-----|:-----|:-----|
+|1|MARS| YUANFUDAO research NLP | Multi-Attention ReaderS|49.72| 48.02 | [link]() |
+|2|Human Performance| - | - |47.00| 46.00 |[link]() |
+|3|[V-Net](https://arxiv.org/pdf/1805.02220.pdf)| Baidu NLP | 46.15 | 44.46 |[link]() |
+|4|[S-Net](https://arxiv.org/pdf/1706.04815.pdf)| Microsoft AI and Research |45.23| 43.78|[link]() |
+|5|[R-Net](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/05/r-net.pdf)| Microsoft AI and Research |42.89| 42.22|[link]() |
+|6|[ReasoNet](https://arxiv.org/pdf/1609.05284.pdf)| Microsoft AI and Research |38.81| 39.86|[link]() |
+|7|[Prediction](https://arxiv.org/abs/1608.07905.pdf)| Singapore Management University |37.67| 33.93|[link]() |
+|8|[FastQA_Ext](https://arxiv.org/pdf/1703.04816.pdf)| DFKI German Research Center for AI |33.67| 33.93|[link]() |
 
 
 ## V2 Leaderboard - Model List
