@@ -76,7 +76,7 @@ Task Definition: Given a query and 10 passages provide the best answer avaible i
     * Introduce EMA (Exponential Moving Average) into the training for weakening the effect of batch order. *[ nearly 0.3 improvement ]*
 * **Overview**
 
-![MARC](mars.png)
+![MARC](./images/mars.png)
 
 ### <span id = "V-Net">V-Net</span>
 **Multi-Passage Machine Reading Comprehension with Cross-Passage Answer Verification.** *Yizhong Wang, Kai Liu, Jing Liu, Wei He, Yajuan Lyu, Hua Wu, Sujian Li and Haifeng Wang.*  ACL 2018. [ [pdf](http://aclweb.org/anthology/P18-1178) ]
