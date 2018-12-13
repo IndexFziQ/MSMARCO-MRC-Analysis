@@ -76,7 +76,9 @@ Task Definition: Given a query and 10 passages provide the best answer avaible i
     * Introduce EMA (Exponential Moving Average) into the training for weakening the effect of batch order. *[ nearly 0.3 improvement ]*
 * **Overview**
 
- <img src="./images/mars.png" width = "600" height = "500" alt="MARS" align=center />
+<center>
+ <img src="./images/mars.png" style="zoom:35%" />
+</center>
 
 
 ### <span id = "V-Net">V-Net</span>
