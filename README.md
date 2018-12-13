@@ -91,7 +91,7 @@ Task Definition: Given a query and 10 passages provide the best answer avaible i
 * Baseline
 
 ### <span id = "Prediction">Prediction</span>
-**Machine Comprehension Using Match-LSTM and Answer Pointer.** *Shuohang Wang, and Jing Jiang.* Arxiv 2016. [ [pdf](https://arxiv.org/pdf/1608.07905.pdf) ]
+**Machine Comprehension Using Match-LSTM and Answer Pointer.** *Shuohang Wang, and Jing Jiang.* Arxiv 2016. [[pdf](https://arxiv.org/pdf/1608.07905.pdf)]
 * Motivation
     1. 
 * Contribution
