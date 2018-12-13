@@ -57,7 +57,7 @@ Task Definition: Given a query and 10 passages provide the best answer avaible i
 ### <span id = "MARS">MARS</span>
 **Multi-Attention ReaderS Network.** *Jingming Liu.* [ [video](https://v.qq.com/x/page/k06284mr0hk.html) ]
 * **Motivation**
-    * Transfer learning tasks like Cove and ELMo store more generalized information in the lower layer (encoder).
+    * Transfer learning tasks like CoVe and ELMo store more generalized information in the lower layer (encoder).
     * The answers from each site are quite different and have their own features.
     * Multi-task learning may bring an improvement for the MRC task.
     * The score for multi-passage needs more factors, not just the simple counting.
@@ -74,43 +74,40 @@ Task Definition: Given a query and 10 passages provide the best answer avaible i
             * If a sentence contains a golden span.
     * The score of answer contains span score and vote score.
     * Introduce EMA (Exponential Moving Average) into the training for weakening the effect of batch order. *[ nearly 0.3 improvement ]*
-* **Baseline**
-    * [Prediction](#Prediction), [R-Net](#R-Net)
 
 ### <span id = "V-Net">V-Net</span>
 **Multi-Passage Machine Reading Comprehension with Cross-Passage Answer Verification.** *Yizhong Wang, Kai Liu, Jing Liu, Wei He, Yajuan Lyu, Hua Wu, Sujian Li and Haifeng Wang.*  ACL 2018. [ [pdf](http://aclweb.org/anthology/P18-1178) ]
 * **Motivation**
 * **Contribution**
-* **Baseline**
+
 
 ### <span id = "S-Net">S-Net</span>
 **S-Net: From Answer Extraction to Answer Generation for Machine Reading Comprehension.** *JChuanqi Tan, Furu Wei, Nan Yang, Bowen Du, Weifeng Lv and Ming Zhou.* ArXiv 2017. [ [pdf](https://arxiv.org/pdf/1706.04815.pdf) ]
 * **Motivation**
 * **Contribution**
-* **Baseline**
 
 ### <span id = "R-Net">R-Net</span>
 **Gated Self-Matching Networks for Reading Comprehension and Question Answering.** *Wenhui Wang and Nan Yang and Furu Wei and Baobao Chang and Ming Zhou.* ACL 2017. [ [pdf](http://aclweb.org/anthology/P17-1018) , [new](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/05/r-net.pdf) ]
 * **Motivation**
 * **Contribution**
-* **Baseline**
+
 
 ### <span id = "ReasoNet">ReasoNet</span>
 **ReasoNet: Learning to Stop Reading in Machine Comprehension.** *Yelong Shen, Po-Sen Huang, Jianfeng Gao, and Weizhu Chen.* KDD 2017. [ [pdf](https://arxiv.org/pdf/1609.05284.pdf) ]
 * **Motivation**
 * **Contribution**
-* **Baseline**
+
 
 ### <span id = "Prediction">Prediction</span>
 **Machine Comprehension Using Match-LSTM and Answer Pointer.** *Shuohang Wang, and Jing Jiang.* Arxiv 2016. [[pdf](https://arxiv.org/pdf/1608.07905.pdf)]
 * **Motivation**
 * **Contribution**
-* **Baseline**
+
 
 ### <span id = "FastQA_Ext">FastQA_Ext</span>
 **Making Neural QA as Simple as Possible but not Simpler.** *Dirk Weissenborn and Georg Wiese and Laura Seiffe.* CoNLL 2017. [ [pdf](https://arxiv.org/pdf/1703.04816.pdf) ]
 * **Motivation**
 * **Contribution**
-* **Baseline**
+
 
 
