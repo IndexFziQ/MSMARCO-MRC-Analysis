@@ -53,6 +53,7 @@ Task Definition: Given a query and 10 passages provide the best answer avaible i
 |6| ConZNet |   Samsung Research    |    42.14          | 38.62 |
 
 ##Description of Models
+
 ###<span id = "MARS">MARS</span>
 **Multi-Attention ReaderS Network.** *Jingming Liu.* [ [video](https://v.qq.com/x/page/k06284mr0hk.html) ]
 * Motivation
