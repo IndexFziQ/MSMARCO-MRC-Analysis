@@ -77,7 +77,7 @@ Task Definition: Given a query and 10 passages provide the best answer avaible i
 * **Overview**
 
 <center>
- <img src="./images/mars.png" style="zoom:15%" />
+ <img src="./images/mars.png" height="50%" width="50%" />
 </center>
 
 
