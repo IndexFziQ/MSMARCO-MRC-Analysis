@@ -2,7 +2,7 @@
 
 A list of analysis on the MS-MARCO leaderboard regarding the machine reading comprehension task.
 
-Contributed by Yuqiang Xie and Xing Luxi, *National Engineering Laboratory for Information Security Technologies, Institute of Information Engineering, Chinese Academy of Sciences, Beijing, China*.
+Contributed by Yuqiang Xie and Xing Luxi, National Engineering Laboratory for Information Security Technologies, Institute of Information Engineering, Chinese Academy of Sciences, Beijing, China.
 
 ## Introduction
 
@@ -18,7 +18,7 @@ Contributed by Yuqiang Xie and Xing Luxi, *National Engineering Laboratory for I
 
 In this repository, submissions to MSMARCO will be almost listed.  This work will be updated persistently.
 
-Tips: The official evaluation metrics include [ROUGE-L](http://aclweb.org/anthology/W04-1013) and [BLEU-1](http://www.anthology.aclweb.org/P/P02/P02-1040.pdf). 
+**Tips:** The official evaluation metrics include [ROUGE-L](http://aclweb.org/anthology/W04-1013) and [BLEU-1](http://www.anthology.aclweb.org/P/P02/P02-1040.pdf). 
 
 ## V1 Leaderboard - Model List
 
@@ -63,17 +63,17 @@ Task Definition: Given a query and 10 passages provide the best answer avaible i
     * The score for multi-passage needs more factors, not just the simple counting.
     * Through training, the train set is large and the batch is small, which leads to the distribution between real samples and each batch inconsistent. The output of model is related to the order of the batch.
 * **Contribution**
-    * Enhance Glove with CoVe, ELMo, POS, NER and word-match features, word dropout is 5%. *[ nearly 2.0 improvement ]*
-    * Embed each site to a representation and combine it with the passage representation in the prediction layer. *[ nearly 0.3-0.5 improvement ]*
+    * Enhance Glove with CoVe, ELMo, POS, NER and word-match features, word dropout is 5%. <br>*[ nearly 2.0 improvement ]*
+    * Embed each site to a representation and combine it with the passage representation in the prediction layer. <br>*[ nearly 0.3-0.5 improvement ]*
     * Apply multi-task learning into MRC. 
         * Main task: 
             * Golden span (the highest rouge(>0.8) span in every passage). 
-        * Auxiliary task: *[ weight: 0.1~0.2 ]*
+        * Auxiliary tasks: *[ weight: 0.1~0.2 ]*
             * If a word is in the answer;
             * If a passage contains a golden span;
             * If a sentence contains a golden span.
     * The score of answer contains span score and vote score.
-    * Introduce EMA (Exponential Moving Average) into the training for weakening the effect of batch order. *[ nearly 0.3 improvement ]*
+    * Introduce EMA (Exponential Moving Average) into the training for weakening the effect of batch order. <br>*[ nearly 0.3 improvement ]*
 * **Overview**
 
 <div align=center>
