@@ -88,7 +88,7 @@ Task Definition: Given a query and 10 passages provide the best answer avaible i
 
 
 ### <span id = "S-Net">S-Net</span>
-**S-Net: From Answer Extraction to Answer Generation for Machine Reading Comprehension.** *JChuanqi Tan, Furu Wei, Nan Yang, Bowen Du, Weifeng Lv and Ming Zhou.* ArXiv 2017. [ [pdf](https://arxiv.org/pdf/1706.04815.pdf) ]
+**S-Net: From Answer Extraction to Answer Generation for Machine Reading Comprehension.** *JChuanqi Tan, Furu Wei, Nan Yang, Bowen Du, Weifeng Lv and Ming Zhou.* AAAI 2018. [ [pdf](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16239/16160) ]
 * **Motivation**
 * **Contribution**
 
