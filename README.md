@@ -77,9 +77,9 @@ Task Definition: Given a query and 10 passages provide the best answer available
     * Introduce EMA (Exponential Moving Average) into the training for weakening the effect of batch order. <br>*[ nearly 0.3 improvement ]*
 * **Overview**
 
-<div align=center>
- <img src="./images/mars.png" height="50%" width="50%" />
-</div>
+   <div align=center>
+    <img src="./images/mars.png" height="50%" width="50%" />
+   </div>
 
 
 ### <span id = "V-Net">V-Net</span>
@@ -91,9 +91,9 @@ Task Definition: Given a query and 10 passages provide the best answer available
     * Jointly trained in an end-to-end framework.
 * **Overview**
 
-<div align=center>
- <img src="./images/V-Net.png" height="50%" width="50%" />
-</div>
+   <div align=center>
+    <img src="./images/V-Net.png" height="50%" width="50%" />
+   </div>
 
 
 ### <span id = "S-Net">S-Net</span>
@@ -103,24 +103,29 @@ Task Definition: Given a query and 10 passages provide the best answer available
     * In some examples, the answers need to be synthesized or generated from the question and passage.
 * **Contribution**
     * Present an extraction-then-synthesis framework for generated MRC
-        * Extracts evidence snippets by matching the question and passage;
+        * Extracts evidence snippets by matching the question and passage.
         * Generates the answer by synthesizing the question, passage, and evidence snippets.
     * Utilize multi-task learning to help pure answer span prediction.
     * First apply seq2seq model to generate answer with extracted evidence, question and passages.
 * **Overview**
 
-    ***The whole extraction-then-synthesis framework:***
-<div align=center>
- <img src="./images/S-Net-F.png" height="50%" width="50%" />
-</div>
-    ***The Evidence Extraction Model:***
-<div align=center>
- <img src="./images/S-Net-E.png" height="50%" width="50%" />
-</div>
-    ***The Answer Synthesis Model:***
-<div align=center>
- <img src="./images/S-Net-A.png" height="50%" width="50%" />
-</div>
+    * The whole extraction-then-synthesis framework:
+    
+      <div align=center>
+       <img src="./images/S-Net-F.png" height="50%" width="50%" />
+      </div>
+
+    * The Evidence Extraction Model:
+    
+      <div align=center>
+       <img src="./images/S-Net-E.png" height="50%" width="50%" />
+      </div>
+
+    * The Answer Synthesis Model:
+    
+      <div align=center>
+       <img src="./images/S-Net-A.png" height="50%" width="50%" />
+      </div>
 
 ### <span id = "R-Net">R-Net</span>
 **Gated Self-Matching Networks for Reading Comprehension and Question Answering.** *Wenhui Wang and Nan Yang and Furu Wei and Baobao Chang and Ming Zhou.* ACL 2017. [ [pdf](http://aclweb.org/anthology/P17-1018) , [new](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/05/r-net.pdf) ]
