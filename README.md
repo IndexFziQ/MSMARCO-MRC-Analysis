@@ -63,13 +63,12 @@ For this version, we focus on *Q&A + Natural Language Generation*, where human p
 
 Task Definition: The generated answer should be well-formed. The answer should make sense even without the context of the question and retrieved passages. 
 
-
 |Rank| Model | Org.  | Rouge-L | Bleu-1 |
 | :---: | :--- | :--- | :-----: | :---: |
 |1| Human Performance    | -   |    63.21   |   53.03  |
-|2| Masque NLGEN Style  | NTT Media Intelligence Laboratories |  49.19	 | 49.63 |
+|2| Masque NLGEN Style  | NTT Media Intelligence Laboratories |  49.61	 | 50.13 |
 |3| V-Net  | Baidu NLP |  48.37	 | 46.75 |
-|4| Masque | NTT Media Intelligence Laboratories| 46.81 |47.64 |
+|4| BERT+ Multi-Pointer-Generator | Tongjun Li of the ColorfulClouds Tech and BUPT| 47.37 |45.09 |
 |5| SNET + CES2S   | SYSU     |    45.04    |  40.62  |
 |6| Reader-Writer   |  Microsoft Business Applications Group AI Research   |    43.89    |    42.59     |
 |7| ConZNet |   Samsung Research    |    42.14      | 38.62 |
