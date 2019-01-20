@@ -45,12 +45,12 @@ In this repository, submissions to MS MARCO will be almost listed.  This work wi
 
 Task Definition: First predict whether a question can be answered based only on the information contained in the provided passages. If the question cannot be answered, then the system should return “No Answer Present” as response. If the question can be answered, then the system should generate the correct answer. 
 
-|Rank|Model| Org. | Rouge-L | Bleu-1 | 
-|:---:|:----|:-------|:-----:|:-----:|
-|1|[MARS](#MARS)| YUANFUDAO research NLP | 49.72| 48.02 | 
+|Rank|Model| Org. | Rouge-L | Bleu-1 | Notes |
+|:---:|:----|:-------|:-----:|:-----:|:-----:|
+|1|[MARS](#MARS)| YUANFUDAO research NLP | 49.72| 48.02 | wait|
 |2|Human Performance| -  |47.00| 46.00 |-|
-|3|[V-Net](#V-Net)| Baidu NLP | 46.15 | 44.46 |
-|4|[S-Net](#S-Net)| Microsoft AI and Research |45.23| 43.78|
+|3|[V-Net](#V-Net)| Baidu NLP | 46.15 | 44.46 |wait|
+|4|[S-Net](#S-Net)| Microsoft AI and Research |45.23| 43.78|[note](https://indexfziq.github.io/2019/01/17/SNET/)|
 |5|[R-Net](#R-Net)| Microsoft AI and Research |42.89| 42.22|
 |6|[ReasoNet](#ReasoNet)| Microsoft AI and Research |38.81| 39.86|
 |7|[Prediction](#Prediction)| Singapore Management University |37.67| 33.93|
