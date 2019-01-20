@@ -138,19 +138,19 @@ Task Definition: The generated answer should be well-formed. The answer should m
     * The whole extraction-then-synthesis framework:
     
       <div align=center>
-       <img src="./images/S-Net-F.png" height="50%" width="50%" />
+       <img src="./images/SNET/S-Net-F.png" height="50%" width="50%" />
       </div>
 
     * The Evidence Extraction Model:
     
       <div align=center>
-       <img src="./images/S-Net-E.png" height="50%" width="50%" />
+       <img src="./images/SNET/S-Net-E.png" height="50%" width="50%" />
       </div>
 
     * The Answer Synthesis Model:
     
       <div align=center>
-       <img src="./images/S-Net-A.png" height="50%" width="50%" />
+       <img src="./images/SNET/S-Net-A.png" height="50%" width="50%" />
       </div>
 
 ### <span id = "R-Net">R-Net</span>
