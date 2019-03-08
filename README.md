@@ -67,7 +67,7 @@ Task Definition: The generated answer should be well-formed. The answer should m
 | :---: | :--- | :--- | :-----: | :---: | :--: |
 |1| Human Performance    | -   |    63.21   |   53.03  |  |
 |2| [Masque NLGEN Style](#Masque)  | NTT Media Intelligence Laboratories |  49.61	 | 50.13 |  wait |
-|3| V-Net  | Baidu NLP |  48.37	 | 46.75 |[note](https://indexfziq.github.io/2019/03/08/VNET/)|
+|3| [V-Net](#V-Net)  | Baidu NLP |  48.37	 | 46.75 |[note](https://indexfziq.github.io/2019/03/08/VNET/)|
 |4| Selector+Combine-Content-Generator  | Shengjie Qian of Caiyun xiaoyi AI and BUPT |  47.39	 | 45.26 |
 |5| BERT+ Multi-Pointer-Generator | Tongjun Li of the ColorfulClouds Tech and BUPT| 47.37 |45.09 |
 |6| SNET + CES2S   | SYSU     |    45.04    |  40.62  |
