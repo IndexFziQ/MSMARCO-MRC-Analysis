@@ -66,7 +66,7 @@ Task Definition: The generated answer should be well-formed. The answer should m
 |Rank| Model | Org.  | Rouge-L | Bleu-1 | Notes |
 | :---: | :--- | :--- | :-----: | :---: | :--: |
 |1| Human Performance    | -   |    63.21   |   53.03  |  |
-|2| [Masque NLGEN Style](#Masque NLGEN Style)  | NTT Media Intelligence Laboratories |  49.61	 | 50.13 |  wait |
+|2| [Masque NLGEN Style](#Masque)  | NTT Media Intelligence Laboratories |  49.61	 | 50.13 |  wait |
 |3| V-Net  | Baidu NLP |  48.37	 | 46.75 |[note](https://indexfziq.github.io/2019/03/08/VNET/)|
 |4| Selector+Combine-Content-Generator  | Shengjie Qian of Caiyun xiaoyi AI and BUPT |  47.39	 | 45.26 |
 |5| BERT+ Multi-Pointer-Generator | Tongjun Li of the ColorfulClouds Tech and BUPT| 47.37 |45.09 |
@@ -173,7 +173,7 @@ Task Definition: The generated answer should be well-formed. The answer should m
 **Making Neural QA as Simple as Possible but not Simpler.** *Dirk Weissenborn and Georg Wiese and Laura Seiffe.* CoNLL 2017. [ [pdf](https://arxiv.org/pdf/1703.04816.pdf) ]
 
 
-### <span id = "Masque NLGEN Style">Masque NLGEN Style</span>
+### <span id = "Masque">Masque NLGEN Style</span>
 **Multi-style Generative Reading Comprehension.** *Kyosuke Nishida and Itsumi Saito and Kosuke Nishida and Kazutoshi Shinoda and Atsushi Otsuka and Hisako Asano and Junji Tomita.* Arxiv 1901.02262. [ [pdf](https://arxiv.org/pdf/1901.02262) ]
 
 
