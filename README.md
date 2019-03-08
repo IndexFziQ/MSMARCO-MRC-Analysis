@@ -47,9 +47,9 @@ Task Definition: First predict whether a question can be answered based only on 
 
 |Rank|Model| Org. | Rouge-L | Bleu-1 | Notes |
 |:---:|:----|:-------|:-----:|:-----:|:-----:|
-|1|[MARS](#MARS)| YUANFUDAO research NLP | 49.72| 48.02 | wait|
+|1|[MARS](#MARS)| YUANFUDAO research NLP | 49.72| 48.02 ||
 |2|Human Performance| -  |47.00| 46.00 |-|
-|3|[V-Net](#V-Net)| Baidu NLP | 46.15 | 44.46 |wait|
+|3|[V-Net](#V-Net)| Baidu NLP | 46.15 | 44.46 |[note](https://indexfziq.github.io/2019/03/08/VNET/)|
 |4|[S-Net](#S-Net)| Microsoft AI and Research |45.23| 43.78|[note](https://indexfziq.github.io/2019/01/17/SNET/)|
 |5|[R-Net](#R-Net)| Microsoft AI and Research |42.89| 42.22|
 |6|[ReasoNet](#ReasoNet)| Microsoft AI and Research |38.81| 39.86|
@@ -63,11 +63,11 @@ For this version, we focus on *Q&A + Natural Language Generation*, where human p
 
 Task Definition: The generated answer should be well-formed. The answer should make sense even without the context of the question and retrieved passages. 
 
-|Rank| Model | Org.  | Rouge-L | Bleu-1 |
-| :---: | :--- | :--- | :-----: | :---: |
-|1| Human Performance    | -   |    63.21   |   53.03  |
-|2| Masque NLGEN Style  | NTT Media Intelligence Laboratories |  49.61	 | 50.13 |
-|3| V-Net  | Baidu NLP |  48.37	 | 46.75 |
+|Rank| Model | Org.  | Rouge-L | Bleu-1 | Notes |
+| :---: | :--- | :--- | :-----: | :---: | :--: |
+|1| Human Performance    | -   |    63.21   |   53.03  |  |
+|2| Masque NLGEN Style  | NTT Media Intelligence Laboratories |  49.61	 | 50.13 |  wait |
+|3| V-Net  | Baidu NLP |  48.37	 | 46.75 |[note](https://indexfziq.github.io/2019/03/08/VNET/)|
 |4| Selector+Combine-Content-Generator  | Shengjie Qian of Caiyun xiaoyi AI and BUPT |  47.39	 | 45.26 |
 |5| BERT+ Multi-Pointer-Generator | Tongjun Li of the ColorfulClouds Tech and BUPT| 47.37 |45.09 |
 |6| SNET + CES2S   | SYSU     |    45.04    |  40.62  |
