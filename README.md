@@ -63,7 +63,7 @@ For this version, we focus on *Q&A + Natural Language Generation*, where human p
 
 Task Definition: The generated answer should be well-formed. The answer should make sense even without the context of the question and retrieved passages. 
 
-|Rank| Model | Org.  | Rouge-L | Bleu-1 | Notes |
+|Rank| Model | Org.  | Rouge-L | Bleu-1 | Note |
 | :---: | :--- | :--- | :-----: | :---: | :--: |
 |1| Human Performance    | -   |    63.21   |   53.03  |  |
 |2| [Masque NLGEN Style](#Masque)  | NTT Media Intelligence Laboratories |  49.61	 | 50.13 |  wait |
