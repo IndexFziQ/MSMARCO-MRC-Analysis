@@ -2,7 +2,7 @@
 
 Analysis on the MS-MARCO leaderboard, including V1 and V2, regarding the machine reading comprehension task.
 
-Contributed by Yuqiang Xie and Luxi Xing, *National Engineering Laboratory for Information Security Technologies, IIE, CAS*.
+Contributed by Yuqiang Xie, Luxi Xing and Wei Peng, *National Engineering Laboratory for Information Security Technologies, IIE, CAS*.
 
 ## Introduction
 
