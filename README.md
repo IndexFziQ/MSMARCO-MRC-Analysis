@@ -181,13 +181,13 @@ Task Definition: The generated answer should be well-formed. The answer should m
     * The Sequence Model framework:
     
       <div align=center>
-       <img src="./images/match-lstm/seq_model.png" height="50%" width="50%" />
+       <img src="./images/Sequence.png" height="50%" width="50%" />
       </div>
 
     * The Boundary Model framework:
     
       <div align=center>
-       <img src="./images/match-lstm/boun_model.png" height="50%" width="50%" />
+       <img src="./images/Boundary.png" height="50%" width="50%" />
       </div>
 
 ### <span id = "FastQA_Ext">FastQA_Ext</span>
