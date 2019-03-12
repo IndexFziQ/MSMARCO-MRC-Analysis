@@ -164,7 +164,7 @@ Task Definition: The generated answer should be well-formed. The answer should m
 
 
 
-### <span id = "Match-LSTM">Match-LSTM</span>
+### <span id = "Match-LSTM">Prediction</span>
 **Machine Comprehension Using Match-LSTM and Answer Pointer.** *Shuohang Wang, and Jing Jiang.* ICLR 2017(under review). [ [pdf](https://arxiv.org/pdf/1608.07905.pdf) ]
 
 * **Motivation**
