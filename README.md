@@ -164,10 +164,31 @@ Task Definition: The generated answer should be well-formed. The answer should m
 
 
 
-### <span id = "Prediction">Prediction</span>
+### <span id = "Match-LSTM">Match-LSTM</span>
 **Machine Comprehension Using Match-LSTM and Answer Pointer.** *Shuohang Wang, and Jing Jiang.* ICLR 2017(under review). [ [pdf](https://arxiv.org/pdf/1608.07905.pdf) ]
 
+* **Motivation**
+    * Traditional solutions to this kind of question answering tasks rely on feature engineering, including syntactic parsing, named entity recognition, question classification, semantic parsing, etc.So proposing a new end-to-end neural architecture to address the machine comprehension problem as defined in the SQuAD dataset.
+    * In most of the benchmark datasets, a question can be treated as a multiple choice question, whose correct answer is to be chosen from a set of provided candidate answers,but it is not suitable for SQuAD.Using pointer network to decide the boundary of the answer.
+* **Contribution**
+    * Present an MATCH-LSTM to get the interaction between the query and passage.
+    * Using the pointer network to solve a special kind of problems where we want to generate an output sequence whose tokens must come from the input sequence.
+         * The Sequence Model:predict every position until zero pad
+         * The Boundary Model:predict just two positions, start and end
+    * First apply end-to-end model to extract answer in SQuAD.
+* **Overview**
 
+    * The Sequence Model framework:
+    
+      <div align=center>
+       <img src="./images/match-lstm/seq_model.png" height="50%" width="50%" />
+      </div>
+
+    * The Boundary Model framework:
+    
+      <div align=center>
+       <img src="./images/match-lstm/boun_model.png" height="50%" width="50%" />
+      </div>
 
 ### <span id = "FastQA_Ext">FastQA_Ext</span>
 **Making Neural QA as Simple as Possible but not Simpler.** *Dirk Weissenborn and Georg Wiese and Laura Seiffe.* CoNLL 2017. [ [pdf](https://arxiv.org/pdf/1703.04816.pdf) ]
