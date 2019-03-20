@@ -168,8 +168,8 @@ Task Definition: The generated answer should be well-formed. The answer should m
 **Machine Comprehension Using Match-LSTM and Answer Pointer.** *Shuohang Wang, and Jing Jiang.* ICLR 2017(under review). [ [pdf](https://arxiv.org/pdf/1608.07905.pdf) ]
 
 * **Motivation**
-    * Traditional solutions to this kind of question answering tasks rely on feature engineering, including syntactic parsing, named entity recognition, question classification, semantic parsing, etc.So proposing a new end-to-end neural architecture to address the machine comprehension problem as defined in the SQuAD dataset.
-    * In most of the benchmark datasets, a question can be treated as a multiple choice question, whose correct answer is to be chosen from a set of provided candidate answers,but it is not suitable for SQuAD.Using pointer network to decide the boundary of the answer.
+    * Traditional solutions to this kind of question answering tasks rely on feature engineering, including syntactic parsing, named entity recognition, question classification, semantic parsing, and etc. So it proposed a new end-to-end neural architecture to address the machine comprehension problem as defined in the SQuAD dataset.
+    * In most of the benchmark datasets, a question can be treated as a multiple choice question, whose correct answer is to be chosen from a set of provided candidate answers, but it is unsuitable for SQuAD. Using pointer network to decide the boundary of the answer.
 * **Contribution**
     * Present an MATCH-LSTM to get the interaction between the query and passage.
     * Using the pointer network to solve a special kind of problems where we want to generate an output sequence whose tokens must come from the input sequence.
