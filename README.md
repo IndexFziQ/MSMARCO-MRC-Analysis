@@ -25,6 +25,18 @@ Contributed by Yuqiang Xie, Luxi Xing and Wei Peng, *National Engineering Labora
 | MS MARCO V1     | **Yes**     | User logs        | Human generated    | **100K**    | 1M passages, 200K docs.   |
 | **MS MARCO V2** | **Yes**     | User logs        | Human generated    | **1M**      | 8.8M passages, 3.2M docs. |
 
+Some other dataset, one is CoQA whose aim is to answer multimple questions that are associated with each other so as to simulate the process of the people.The dataset comes from 7 regions.An example is as follow.[Refrencce](https://www.cn-healthcare.com/article/20190312/content-515681.html)
+R represents reference.
+   <div align=center>
+    <img src="./images/dataset/CoQA.png" height="50%" width="50%" />
+   </div>
+
+Another is HotpotQA whose range is not focus on one passage but more passages.An example.
+   <div align=center>
+    <img src="./images/dataset/HotPot.png" height="50%" width="50%" />
+   </div>
+
+
 **Tips:** Segment stands for the main classification for the answer.
 
 ### Advantages
@@ -66,7 +78,7 @@ Task Definition: The generated answer should be well-formed. The answer should m
 |Rank| Model | Org.  | Rouge-L | Bleu-1 | Note |
 | :---: | :--- | :--- | :-----: | :---: | :--: |
 |1| Human Performance    | -   |    63.21   |   53.03  |  |
-|2| [Masque NLGEN Style](#Masque)  | NTT Media Intelligence Laboratories |  49.61	 | 50.13 |  wait |
+|2| [Masque NLGEN Style](#Masque)  | NTT Media Intelligence Laboratories |  49.61	 | 50.13 |  [note](https://indexfziq.github.io/2019/04/06/masque/) |
 |3| [V-Net](#V-Net)  | Baidu NLP |  48.37	 | 46.75 |[note](https://indexfziq.github.io/2019/03/08/VNET/)|
 |4| Selector+Combine-Content-Generator  | Shengjie Qian of Caiyun xiaoyi AI and BUPT |  47.39	 | 45.26 |
 |5| BERT+ Multi-Pointer-Generator | Tongjun Li of the ColorfulClouds Tech and BUPT| 47.37 |45.09 |
@@ -168,8 +180,8 @@ Task Definition: The generated answer should be well-formed. The answer should m
 **Machine Comprehension Using Match-LSTM and Answer Pointer.** *Shuohang Wang, and Jing Jiang.* ICLR 2017(under review). [ [pdf](https://arxiv.org/pdf/1608.07905.pdf) ]
 
 * **Motivation**
-    * Traditional solutions to this kind of question answering tasks rely on feature engineering, including syntactic parsing, named entity recognition, question classification, semantic parsing, etc.So proposing a new end-to-end neural architecture to address the machine comprehension problem as defined in the SQuAD dataset.
-    * In most of the benchmark datasets, a question can be treated as a multiple choice question, whose correct answer is to be chosen from a set of provided candidate answers,but it is not suitable for SQuAD.Using pointer network to decide the boundary of the answer.
+    * Traditional solutions to this kind of question answering tasks rely on feature engineering, including syntactic parsing, named entity recognition, question classification, semantic parsing, and etc. So it proposed a new end-to-end neural architecture to address the machine comprehension problem as defined in the SQuAD dataset.
+    * In most of the benchmark datasets, a question can be treated as a multiple choice question, whose correct answer is to be chosen from a set of provided candidate answers, but it is unsuitable for SQuAD. Using pointer network to decide the boundary of the answer.
 * **Contribution**
     * Present an MATCH-LSTM to get the interaction between the query and passage.
     * Using the pointer network to solve a special kind of problems where we want to generate an output sequence whose tokens must come from the input sequence.
@@ -196,6 +208,26 @@ Task Definition: The generated answer should be well-formed. The answer should m
 
 ### <span id = "Masque">Masque NLGEN Style</span>
 **Multi-style Generative Reading Comprehension.** *Kyosuke Nishida and Itsumi Saito and Kosuke Nishida and Kazutoshi Shinoda and Atsushi Otsuka and Hisako Asano and Junji Tomita.* Arxiv 1901.02262. [ [pdf](https://arxiv.org/pdf/1901.02262) ]
+
+* **Motivation**
+    * Previous works extract the answer span from the provided passages; They can not control different styles of answers, such as concise phrases and well-formed sentences, within a model.
+    * Generate an abstractive summary from the given question and passages.
+    * Generate answers conditioned on a given style.
+* **Contribution**
+    * Provide an end-to-end deep neural network that can generate answers conditioned on a given style
+    <div align=center>
+       <img src="./images/masque/control.png" height="50%" width="50%" />
+    </div>
+* **Overview**
+
+   <div align=center>
+    <img src="./images/masque/model.py" height="50%" width="50%" />
+   </div>
+
+
+   <div align=center>
+    <img src="./images/masque/pgnet.png" height="50%" width="50%" />
+   </div>
 
 
 ### <span id = "ConZNet">ConZNet</span>
