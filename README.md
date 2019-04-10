@@ -221,7 +221,7 @@ Task Definition: The generated answer should be well-formed. The answer should m
 * **Overview**
 
    <div align=center>
-    <img src="./images/masque/model.py" height="50%" width="50%" />
+    <img src="./images/masque/model.png" height="50%" width="50%" />
    </div>
 
 
