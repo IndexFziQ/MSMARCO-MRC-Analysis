@@ -78,7 +78,7 @@ Task Definition: The generated answer should be well-formed. The answer should m
 |Rank| Model | Org.  | Rouge-L | Bleu-1 | Note |
 | :---: | :--- | :--- | :-----: | :---: | :--: |
 |1| Human Performance    | -   |    63.21   |   53.03  |  |
-|2| [Masque NLGEN Style](#Masque)  | NTT Media Intelligence Laboratories |  49.61	 | 50.13 |  wait |
+|2| [Masque NLGEN Style](#Masque)  | NTT Media Intelligence Laboratories |  49.61	 | 50.13 |  [note](https://indexfziq.github.io/2019/04/06/masque/) |
 |3| [V-Net](#V-Net)  | Baidu NLP |  48.37	 | 46.75 |[note](https://indexfziq.github.io/2019/03/08/VNET/)|
 |4| Selector+Combine-Content-Generator  | Shengjie Qian of Caiyun xiaoyi AI and BUPT |  47.39	 | 45.26 |
 |5| BERT+ Multi-Pointer-Generator | Tongjun Li of the ColorfulClouds Tech and BUPT| 47.37 |45.09 |
@@ -208,6 +208,26 @@ Task Definition: The generated answer should be well-formed. The answer should m
 
 ### <span id = "Masque">Masque NLGEN Style</span>
 **Multi-style Generative Reading Comprehension.** *Kyosuke Nishida and Itsumi Saito and Kosuke Nishida and Kazutoshi Shinoda and Atsushi Otsuka and Hisako Asano and Junji Tomita.* Arxiv 1901.02262. [ [pdf](https://arxiv.org/pdf/1901.02262) ]
+
+* **Motivation**
+    * Previous works extract the answer span from the provided passages; They can not control different styles of answers, such as concise phrases and well-formed sentences, within a model.
+    * Generate an abstractive summary from the given question and passages.
+    * Generate answers conditioned on a given style.
+* **Contribution**
+    * Provide an end-to-end deep neural network that can generate answers conditioned on a given style
+    <div align=center>
+       <img src="./images/masque/control.png" height="50%" width="50%" />
+    </div>
+* **Overview**
+
+   <div align=center>
+    <img src="./images/masque/model.py" height="50%" width="50%" />
+   </div>
+
+
+   <div align=center>
+    <img src="./images/masque/pgnet.png" height="50%" width="50%" />
+   </div>
 
 
 ### <span id = "ConZNet">ConZNet</span>
