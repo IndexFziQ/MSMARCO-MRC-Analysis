@@ -25,13 +25,12 @@ Contributed by Yuqiang Xie, Luxi Xing and Wei Peng, *National Engineering Labora
 | MS MARCO V1     | **Yes**     | User logs        | Human generated    | **100K**    | 1M passages, 200K docs.   |
 | **MS MARCO V2** | **Yes**     | User logs        | Human generated    | **1M**      | 8.8M passages, 3.2M docs. |
 
-Some other dataset, one is CoQA whose aim is to answer multimple questions that are associated with each other so as to simulate the process of the people.The dataset comes from 7 regions.An example is as follow.[Refrencce](https://www.cn-healthcare.com/article/20190312/content-515681.html)
-R represents reference.
+The following is some other dataset: one is CoQA whose aim is to answer multimple questions that are associated with each other so as to simulate the process of the people. The dataset comes from 7 regions. An example is as follow. [ [link](https://www.cn-healthcare.com/article/20190312/content-515681.html) ]
    <div align=center>
     <img src="./images/dataset/CoQA.png" height="50%" width="50%" />
    </div>
 
-Another is HotpotQA whose range is not focus on one passage but more passages.An example.
+Another is HotpotQA whose range is not focus on one passage but more passages. An example:
    <div align=center>
     <img src="./images/dataset/HotPot.png" height="50%" width="50%" />
    </div>
