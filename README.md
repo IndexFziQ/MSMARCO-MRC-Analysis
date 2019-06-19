@@ -32,11 +32,11 @@ Contributed by Yuqiang Xie, Luxi Xing and Wei Peng, *National Engineering Labora
 
 Each dimension for datasets is hard to compare in a table. It is also hard to contain all MRC datasets in a table due to the fast development of NLP. 
 
-For example, the conversation in CoQA is about text passages from seven diverse domains. Besides, HotpotQA has the following key features: (1) the questions require ﬁnding and reasoning over multiple supporting documents to answer; (2) the questions are diverse and not constrained to any pre-existing knowledge bases or knowledge schemas; (3) dataset give sentence-level supporting facts required for reasoning, allowing QA systems to reason with strong supervision and explain the predictions.
+For example, the conversation in **CoQA** is about text passages from seven diverse domains. Besides, **HotpotQA** has the following key features: (1) the questions require ﬁnding and reasoning over multiple supporting documents to answer; (2) the questions are diverse and not constrained to any pre-existing knowledge bases or knowledge schemas; (3) dataset give sentence-level supporting facts required for reasoning, allowing QA systems to reason with strong supervision and explain the predictions.
 
-Moreover, CoQA and QuAC belong to conversational MRC (a sequence of QA pairs is similar to a dialog). And unlike CoQA, students in QuAC do not know the answers to their questions prior to asking them, which lessens the role of string matching and simple paraphrasing in answering their questions.
+Moreover, CoQA and QuAC belong to conversational MRC (a sequence of QA pairs is similar to a dialog). And unlike CoQA, students in **QuAC** do not know the answers to their questions prior to asking them, which lessens the role of string matching and simple paraphrasing in answering their questions.
 
-In all, compared with other MRC datasets, MS MARCO V2 owns its advantage. In summary, It is a large-scale, open-domain, human-generated multi-document MRC dataset.
+In all, compared with other MRC datasets, **MS MARCO V2** owns its advantage. In summary, it is a large-scale, open-domain, human-generated multi-document MRC dataset.
 
 **Tips:** Segment stands for the main classification for the answer.
 
