@@ -22,11 +22,11 @@ Contributed by Yuqiang Xie, Luxi Xing and Wei Peng, *National Engineering Labora
 | SQuAD2.0 | No | Crowd-sourced | No answer/Span | 150K | 536 |
 | NewsQA          | No          | Crowd-sourced    | Span               | 100K        | 10K                       |
 | SearchQA        | No          | Generated        | Span               | 140K        | 6.9M passages             |
+| ***HotpotQA*** | No | Crowd-sourced | Yes/No/Span | 113K | 5M wiki paragraphs |
 | DuReader        | No          | Crowd-sourced    | Human generated    | 200K        | 1M                        |
 | NarrativeQA     | No          | Crowd-sourced    | Human generated    | 47K         | 1572 stories              |
-| *CoQA* | No | Crowd-sourced | Human generated | 127K | 8000 conversations |
-| *QuAC* | No | Crowd-sourced | Human generated | 100K | Daffy Duck’s Wiki page |
-| *HotpotQA* | No | Crowd-sourced | Yes/No/Span | 113K | 5M wiki paragraphs |
+| ***CoQA*** | No | Crowd-sourced | Human generated | 127K | 8000 conversations |
+| ***QuAC*** | No | Crowd-sourced | Human generated | 100K | Daffy Duck’s Wiki page |
 | MS MARCO V1     | **Yes**     | User logs        | Human generated    | 100K    | 1M passages, 200K docs.   |
 | **MS MARCO V2** | **Yes**     | User logs        | Human generated    | **1M**      | 8.8M passages, 3.2M docs. |
 
