@@ -209,7 +209,7 @@ Task Definition: The generated answer should be well-formed. The answer should m
 
 
 ### <span id = "Masque">Masque NLGEN Style</span>
-**Multi-style Generative Reading Comprehension.** *Kyosuke Nishida and Itsumi Saito and Kosuke Nishida and Kazutoshi Shinoda and Atsushi Otsuka and Hisako Asano and Junji Tomita.* Arxiv 1901.02262. [ [pdf](https://arxiv.org/pdf/1901.02262) ]
+**Multi-style Generative Reading Comprehension.** *Kyosuke Nishida and Itsumi Saito and Kosuke Nishida and Kazutoshi Shinoda and Atsushi Otsuka and Hisako Asano and Junji Tomita.* ACL 2019. [ [pdf](https://arxiv.org/pdf/1901.02262) ]
 
 * **Motivation**
     * Previous works extract the answer span from the provided passages; They can not control different styles of answers, such as concise phrases and well-formed sentences, within a model.
