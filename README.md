@@ -179,7 +179,7 @@ Task Definition: The generated answer should be well-formed. The answer should m
 
 
 ### <span id = "Match-LSTM">Prediction</span>
-**Machine Comprehension Using Match-LSTM and Answer Pointer.** *Shuohang Wang, and Jing Jiang.* ICLR 2017(under review). [ [pdf](https://arxiv.org/pdf/1608.07905.pdf) ]
+**Machine Comprehension Using Match-LSTM and Answer Pointer.** *Shuohang Wang, and Jing Jiang.* ICLR 2017. [ [pdf](https://arxiv.org/pdf/1608.07905.pdf) ]
 
 * **Motivation**
     * Traditional solutions to this kind of question answering tasks rely on feature engineering, including syntactic parsing, named entity recognition, question classification, semantic parsing, and etc. So it proposed a new end-to-end neural architecture to address the machine comprehension problem as defined in the SQuAD dataset.
