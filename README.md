@@ -41,7 +41,7 @@ In all, compared with other MRC datasets, **MS MARCO V2** owns its advantage. In
 **Tips:** Segment stands for the main classification for the answer.
 
 ### Advantages
-**MS MARCO** is a benchmark dataset for multi-passage MRC or so-called "generative MRC". Besides, different from other MRC datasets, MS MARCO has the following advantages (reference [MSMARCO-Question-Answering](https://github.com/microsoft/MSMARCO-Question-Answering)):
+**MS MARCO** is a benchmark dataset for multi-passage MRC or so-called "generative MRC". Besides, different from other MRC datasets, MS MARCO has the following advantages (reference [MS MARCO V2](https://github.com/dfcf93/MSMARCOV2)):
 
 1. Real questions: All questions have been sample from real anonymized bing queries.
 2. Real Documents: Most Url's that we have source the passages from contain the full web documents (abstract). These can be used as extra contextual information to improve systems or be used to compete in our expert task.
